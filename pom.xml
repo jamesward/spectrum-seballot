@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>spectrum</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
+    <version>1.1.1</version>
     <name>Spectrum</name>
     <description>WebJar for Spectrum</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/spectrum</url>
         <connection>scm:git:https://github.com/webjars/spectrum.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/spectrum.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>spectrum-1.1.1</tag>
     </scm>
     
     <properties>
@@ -80,7 +80,7 @@
                                 <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/spectrum-${upstream.version}" includes="spectrum* i18n/"/>
+                                    <fileset dir="${project.build.directory}/spectrum-${upstream.version}" includes="spectrum* i18n/" />
                                 </move>
                             </target>
                         </configuration>
