@@ -18,6 +18,11 @@
 
     <developers>
         <developer>
+            <id>jamesward</id>
+            <name>James Ward</name>
+            <email>james@jamesward.com</email>
+        </developer>
+        <developer>
             <id>yiyang00171</id>
             <name>Jason Zhang</name>
             <email>jason.dev.zhang@gmail.com</email>
